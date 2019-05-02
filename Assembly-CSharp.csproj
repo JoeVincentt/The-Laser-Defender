@@ -55,9 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EnemyPathing.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <None Include="Assets\Space Shooter Visual Assets\Spritesheet\sheet.xml" />
-     <None Include="Assets\Space Shooter Visual Assets\license.txt" />
+     <Compile Include="Assets\Scripts\Shredder.cs" />
+     <None Include="Assets\zSourseAssets\Spritesheet\sheet.xml" />
+     <None Include="Assets\zSourseAssets\license.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/mac/Desktop/Unity 2D/The Laser Defender/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
