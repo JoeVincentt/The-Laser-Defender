@@ -69,6 +69,10 @@ public class Player : MonoBehaviour
 
     public int GetHealth()
     {
+        if (health <= 0)
+        {
+            return 0;
+        }
         return health;
     }
     private void Move()

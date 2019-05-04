@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3315115580336860241}
   - component: {fileID: 965219660669654717}
   - component: {fileID: -6212102745591580945}
+  - component: {fileID: -7877403474309394649}
   m_Layer: 11
   m_Name: EnemyBomb
   m_TagString: Untagged
@@ -156,3 +157,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 150
+--- !u!114 &-7877403474309394649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119721617476386604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300c854027d884e0480807eecf9d34bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedOfSpin: 720
